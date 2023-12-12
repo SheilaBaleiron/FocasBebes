@@ -12,17 +12,18 @@ nav {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    background-color: #54afb3;
+    background-color: white;
     padding: 1rem;
 }
 
 ul a {
-    color: black;
+    color: white;
     text-decoration: none;
-    background-color: white;
+    background-color: cornflowerblue;
     padding: 10px;
     border-radius: 17px;
     font-style: normal;
+    font-weight: bold;
 }
 
 ul {
@@ -35,3 +36,92 @@ ul {
 img {
     height: 80px;
 }
+
+.hero {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    border-radius: 30px;  
+  }
+  
+  .hero-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .text-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .hero img {
+    width: 40%;
+    max-width: 400px; 
+    height: auto;
+    border-radius: 30px;
+}
+  
+  .cta-buttons {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: rgb(76, 112, 180);
+    color: white;
+  }
+  
+  .btn-learn-more {
+    background-color: transparent;
+    border: 2px solid rgb(76, 112, 180);
+    color: white;
+  }
+  
+  .btn-learn-more:hover {
+    background-color: white;
+    color: cornflowerblue;
+  }
+  
+  .hero h2,
+  .hero p {
+    padding: 1rem;
+  }
+
+  .about {
+    text-align: center; 
+    padding: 2rem;
+  }
+  
+  .about-content {
+    max-width: 800px; 
+    margin: 0 auto; /
+  }
+  
+  .about-content h2 {
+    margin-bottom: 20px; /
+  }
